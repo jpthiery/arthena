@@ -9,6 +9,7 @@
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>Tool which allow to manage configuration management for Java application</description>
+    <url>https://github.com/jpthiery/arthena</url>
 
     <licenses>
         <license>
