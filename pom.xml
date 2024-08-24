@@ -27,9 +27,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/jpthiery/arthena.git</connection>
-        <developerConnection>scm:git:ssh://github.com:jpthiery/arthena.git</developerConnection>
-        <url>http://github.com/jpthiery/arthena/tree/main</url>
+        <url>scm:git:git@github.com:jpthiery/arthena.git</url>
+        <connection>scm:git:git@github.com:jpthiery/arthena.git</connection>
+        <developerConnection>scm:git:git@github.com:jpthiery/arthena.git</developerConnection>
     </scm>
 
     <modules>
@@ -114,6 +114,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
+                        <version>3.2.5</version>
                         <executions>
                             <execution>
                                 <id>sign-artifacts</id>
