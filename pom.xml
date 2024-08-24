@@ -4,7 +4,7 @@
 
     <groupId>io.github.jpthiery.arthena</groupId>
     <artifactId>arthena</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>${project.groupId}:${project.artifactId}</name>
@@ -28,7 +28,7 @@
         <url>scm:git:git@github.com:jpthiery/arthena.git</url>
         <connection>scm:git:git@github.com:jpthiery/arthena.git</connection>
         <developerConnection>scm:git:git@github.com:jpthiery/arthena.git</developerConnection>
-      <tag>arthena-0.1.0</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <modules>
@@ -48,7 +48,7 @@
             <dependency>
                 <groupId>io.github.jpthiery.arthena</groupId>
                 <artifactId>arthena-api</artifactId>
-                <version>0.1.0</version>
+                <version>0.1.1-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>org.junit</groupId>
