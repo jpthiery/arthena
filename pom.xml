@@ -29,7 +29,7 @@
         <url>scm:git:git@github.com:jpthiery/arthena.git</url>
         <connection>scm:git:git@github.com:jpthiery/arthena.git</connection>
         <developerConnection>scm:git:git@github.com:jpthiery/arthena.git</developerConnection>
-      <tag>arthena-0.1.3</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <modules>
