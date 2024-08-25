@@ -35,6 +35,10 @@ public class ZookeeperConfigurationValueProvider implements ConfigurationValuePr
     this.lockTemplate = new ConfigurationKeyLockTemplate();
   }
 
+  public ZookeeperConfigurationValueProvider(ZooKeeper zookeeper) {
+    this(zookeeper, null);
+  }
+
   @Override
   public <T> Optional<T> getValue(ConfigurationKey key, Class<T> tClass) {
     return getValue(key, null, tClass);
